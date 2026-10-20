@@ -60,8 +60,6 @@
             "group": "Динамика",
             "pages": [
               "dinamika/podpisok-i-otpisok-po-dnyam",
-              "dinamika/dinamika-prosmotrov-kanala-po-chasam",
-              "dinamika/uvedomleniya-po-dnyam",
               "dinamika/okhvat-publikacii-za-24ch-i-chislo-podpischikov",
               "dinamika/sutochnyi-za-pervye-24ch-publikacii-vovlechyonnost-po-dnyam",
               "dinamika/publikacii-v-den",
@@ -185,6 +183,16 @@
     {
       "source": "/drugie-instrumenty-analitiki/telegraph-stati",
       "destination": "/statistika-kanala/informaciya-o-kanale",
+      "permanent": false
+    },
+    {
+      "source": "/dinamika/dinamika-prosmotrov-kanala-po-chasam",
+      "destination": "/analitika-kanala/dinamika",
+      "permanent": false
+    },
+    {
+      "source": "/dinamika/uvedomleniya-po-dnyam",
+      "destination": "/analitika-kanala/dinamika",
       "permanent": false
     }
   ],

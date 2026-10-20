@@ -21,10 +21,13 @@
           {
             "group": "Статистика канала",
             "pages": [
+              "statistika-kanala/informaciya-o-kanale",
               "statistika-kanala/podpischiki",
               "statistika-kanala/prosmotrov-na-post",
               "statistika-kanala/vovlechyonnost",
+              "statistika-kanala/upominanii",
               "statistika-kanala/pol-peresylok-premialnye-polzovateli",
+              "statistika-kanala/izbrannoe",
               "statistika-kanala/reklamnye-posty",
               "statistika-kanala/upominaniya",
               "statistika-kanala/vse-posty",
@@ -32,6 +35,8 @@
               "statistika-kanala/istoriya-nazvanii",
               "statistika-kanala/istoriya-ssylok",
               "statistika-kanala/vse-kontakty",
+              "statistika-kanala/reklamnaya-statistika",
+              "statistika-kanala/pominutnaya-statistika",
               "statistika-kanala/podpischikov-po-dnyam",
               "statistika-kanala/kto-kogo-upominal",
               "statistika-kanala/algoritm-ocenki-kachestva-kanala"
@@ -119,147 +124,122 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/statistika-kanala/informaciya-o-kanale",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/statistika-kanala/upominanii",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/statistika-kanala/izbrannoe",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/statistika-kanala/reklamnaya-statistika",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/statistika-kanala/pominutnaya-statistika",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/analitika-kanala/auditoriya",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/analitika-kanala/prosmotry-postov",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/analitika-kanala/kategorii",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/analitika-kanala/pokhozhie-kanaly",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/dinamika/raspredelenie-yazyka-po-dnyam",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/katalog-kanalov/katalog-telegram-kanalov",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/katalog-kanalov/glavnaya-stranica",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/katalog-kanalov/kanaly-v-zakladkakh",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/drugie-instrumenty-analitiki/moi-kanaly",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/drugie-instrumenty-analitiki/profil",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/drugie-instrumenty-analitiki/metki-o-moshennichestve-i-nakrutke",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/chasto-zadavaemye-voprosy",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/nastroiki",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/referalnaya-sistema",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/vyplaty",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/istoriya-akkaunta",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/tarif-start",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-1-rubl-na-mesyac",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-1-rubl-na-7-dnei",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei-1",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/katalog-kanalov/poisk-po-kanalam",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
     {
       "source": "/profil/chyornaya-pyatnica-24.11.2025-28.11.2025",
-      "destination": "/statistika-kanala/podpischiki",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     }
   ],

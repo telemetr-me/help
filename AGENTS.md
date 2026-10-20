@@ -1,33 +1,20 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Правила для ИИ-агентов
 
-# Documentation project instructions
+- Тексты на русском, для пользователей Telemetr, без канцелярита.
+- Адреса страниц не менять: на них ссылаются сайт telemetr.me и поисковики. Если страницу всё же нужно переименовать, добавить переадресацию в `redirects` в `docs.json`.
+- Новая страница: файл `<раздел>/<адрес>.mdx` с `title` (и при желании `description`) в шапке, плюс строка в `navigation` в `docs.json`. Если для её адреса была переадресация, удалить её.
+- Картинки класть в `images/<раздел>/`, не больше 20 МБ.
+- Видео — Kinescope, VK Видео или Rutube через iframe. Kinescope вставлять так:
 
-## About this project
+```mdx
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://kinescope.io/embed/<id>"
+  title="Видео"
+  allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write; screen-wake-lock"
+  allowFullScreen
+/>
+```
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
-
-## Terminology
-
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
-
-## Style preferences
-
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
-
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Подсказки — компоненты Mintlify `<Info>`, `<Warning>`, `<Tip>`.
+- Перед коммитом: `mint validate` и `mint broken-links`.

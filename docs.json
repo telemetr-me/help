@@ -1,72 +1,269 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Инструкция Telemetr",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3269FF",
+    "light": "#4782FF",
+    "dark": "#3269FF"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+  "favicon": "/favicon.png",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://telemetr.me"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "ru",
+        "groups": [
+          {
+            "group": "Статистика канала",
+            "pages": [
+              "statistika-kanala/podpischiki",
+              "statistika-kanala/prosmotrov-na-post",
+              "statistika-kanala/vovlechyonnost",
+              "statistika-kanala/pol-peresylok-premialnye-polzovateli",
+              "statistika-kanala/reklamnye-posty",
+              "statistika-kanala/upominaniya",
+              "statistika-kanala/vse-posty",
+              "statistika-kanala/istoriya-opisanii",
+              "statistika-kanala/istoriya-nazvanii",
+              "statistika-kanala/istoriya-ssylok",
+              "statistika-kanala/vse-kontakty",
+              "statistika-kanala/podpischikov-po-dnyam",
+              "statistika-kanala/kto-kogo-upominal",
+              "statistika-kanala/algoritm-ocenki-kachestva-kanala"
+            ]
+          },
+          {
+            "group": "Аналитика канала",
+            "pages": [
+              "analitika-kanala/reklamnaya-otdacha",
+              "analitika-kanala/dinamika",
+              "analitika-kanala/kogorta-po-otpiskam",
+              "analitika-kanala/upominaniya-kanala-i-raskhody",
+              "analitika-kanala/priglasitelnye-ssylki"
+            ]
+          },
+          {
+            "group": "Динамика",
+            "pages": [
+              "dinamika/podpisok-i-otpisok-po-dnyam",
+              "dinamika/dinamika-prosmotrov-kanala-po-chasam",
+              "dinamika/uvedomleniya-po-dnyam",
+              "dinamika/okhvat-publikacii-za-24ch-i-chislo-podpischikov",
+              "dinamika/sutochnyi-za-pervye-24ch-publikacii-vovlechyonnost-po-dnyam",
+              "dinamika/publikacii-v-den",
+              "dinamika/reklamnykh-zapisei-v-den",
+              "dinamika/reklamnykh-upominanii"
+            ]
+          },
+          {
+            "group": "Другие инструменты аналитики",
+            "pages": [
+              "drugie-instrumenty-analitiki/katalog-reklamy-v-telegram-reklama",
+              "drugie-instrumenty-analitiki/monitoring-upominanii",
+              "drugie-instrumenty-analitiki/analiz-auditorii",
+              "drugie-instrumenty-analitiki/telegraph-stati",
+              "drugie-instrumenty-analitiki/detalnaya-statistika",
+              "drugie-instrumenty-analitiki/bot-analitiki-kanalov",
+              "drugie-instrumenty-analitiki/telegram-bot-dlya-chatov",
+              "drugie-instrumenty-analitiki/avtoprinyatie-zayavok",
+              "drugie-instrumenty-analitiki/kak-pozhalovatsya-na-nakrutku"
+            ]
+          },
+          {
+            "group": "Профиль",
+            "pages": [
+              "profil/promokody",
+              "pravila-chata"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "label": "Чат Telemetr",
+        "href": "https://t.me/telemetr_chat"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Открыть Telemetr",
+      "href": "https://telemetr.me"
     }
   },
   "contextual": {
     "options": [
       "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "view"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "telegram": "https://t.me/telemetr_chat"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/statistika-kanala/upominanii",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/statistika-kanala/izbrannoe",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/statistika-kanala/reklamnaya-statistika",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/statistika-kanala/pominutnaya-statistika",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/analitika-kanala/auditoriya",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/analitika-kanala/prosmotry-postov",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/analitika-kanala/kategorii",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/analitika-kanala/pokhozhie-kanaly",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/dinamika/raspredelenie-yazyka-po-dnyam",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/katalog-kanalov/katalog-telegram-kanalov",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/katalog-kanalov/glavnaya-stranica",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/katalog-kanalov/kanaly-v-zakladkakh",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/poisk-postov/reklamnye-posty",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/poisk-postov/vse-posty",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/drugie-instrumenty-analitiki/moi-kanaly",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/drugie-instrumenty-analitiki/profil",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/drugie-instrumenty-analitiki/metki-o-moshennichestve-i-nakrutke",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/chasto-zadavaemye-voprosy",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/nastroiki",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/referalnaya-sistema",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/vyplaty",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/istoriya-akkaunta",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/tarif-start",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/tarif-ekonom-za-1-rubl-na-mesyac",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/tarif-ekonom-za-1-rubl-na-7-dnei",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei-1",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/katalog-kanalov/poisk-po-kanalam",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    },
+    {
+      "source": "/profil/chyornaya-pyatnica-24.11.2025-28.11.2025",
+      "destination": "/statistika-kanala/podpischiki",
+      "permanent": false
+    }
+  ]
 }

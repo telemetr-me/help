@@ -48,7 +48,11 @@
               "analitika-kanala/reklamnaya-otdacha",
               "analitika-kanala/dinamika",
               "analitika-kanala/kogorta-po-otpiskam",
+              "analitika-kanala/auditoriya",
+              "analitika-kanala/prosmotry-postov",
+              "analitika-kanala/kategorii",
               "analitika-kanala/upominaniya-kanala-i-raskhody",
+              "analitika-kanala/pokhozhie-kanaly",
               "analitika-kanala/priglasitelnye-ssylki"
             ]
           },
@@ -124,26 +128,6 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/analitika-kanala/auditoriya",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/analitika-kanala/prosmotry-postov",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/analitika-kanala/kategorii",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/analitika-kanala/pokhozhie-kanaly",
       "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },

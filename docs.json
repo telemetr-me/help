@@ -70,6 +70,14 @@
             ]
           },
           {
+            "group": "Каталог каналов",
+            "pages": [
+              "katalog-kanalov/katalog-telegram-kanalov",
+              "katalog-kanalov/glavnaya-stranica",
+              "katalog-kanalov/kanaly-v-zakladkakh"
+            ]
+          },
+          {
             "group": "Поиск постов",
             "pages": [
               "poisk-postov/vse-posty",
@@ -133,21 +141,6 @@
     },
     {
       "source": "/dinamika/raspredelenie-yazyka-po-dnyam",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/katalog-kanalov/katalog-telegram-kanalov",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/katalog-kanalov/glavnaya-stranica",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/katalog-kanalov/kanaly-v-zakladkakh",
       "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },

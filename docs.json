@@ -102,7 +102,14 @@
           {
             "group": "Профиль",
             "pages": [
+              "drugie-instrumenty-analitiki/profil",
+              "profil/nastroiki",
+              "profil/referalnaya-sistema",
+              "profil/vyplaty",
+              "profil/istoriya-akkaunta",
+              "profil/tarif-start",
               "profil/promokody",
+              "profil/chasto-zadavaemye-voprosy",
               "pravila-chata"
             ]
           }
@@ -142,72 +149,37 @@
     },
     {
       "source": "/dinamika/raspredelenie-yazyka-po-dnyam",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/drugie-instrumenty-analitiki/profil",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/chasto-zadavaemye-voprosy",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/nastroiki",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/referalnaya-sistema",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/vyplaty",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/istoriya-akkaunta",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/profil/tarif-start",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/analitika-kanala/dinamika",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-1-rubl-na-mesyac",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/profil/promokody",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-1-rubl-na-7-dnei",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/profil/promokody",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei-1",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/profil/promokody",
       "permanent": false
     },
     {
       "source": "/katalog-kanalov/poisk-po-kanalam",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/katalog-kanalov/katalog-telegram-kanalov",
       "permanent": false
     },
     {
       "source": "/profil/tarif-ekonom-za-299-rublei-na-7-dnei",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/profil/promokody",
       "permanent": false
     },
     {
       "source": "/profil/chyornaya-pyatnica-24.11.2025-28.11.2025",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "destination": "/profil/promokody",
       "permanent": false
     },
     {

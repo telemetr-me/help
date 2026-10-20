@@ -61,6 +61,13 @@
             ]
           },
           {
+            "group": "Поиск постов",
+            "pages": [
+              "poisk-postov/vse-posty",
+              "poisk-postov/reklamnye-posty"
+            ]
+          },
+          {
             "group": "Другие инструменты аналитики",
             "pages": [
               "drugie-instrumenty-analitiki/katalog-reklamy-v-telegram-reklama",
@@ -177,16 +184,6 @@
     },
     {
       "source": "/katalog-kanalov/kanaly-v-zakladkakh",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/poisk-postov/reklamnye-posty",
-      "destination": "/statistika-kanala/podpischiki",
-      "permanent": false
-    },
-    {
-      "source": "/poisk-postov/vse-posty",
       "destination": "/statistika-kanala/podpischiki",
       "permanent": false
     },

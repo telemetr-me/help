@@ -89,12 +89,13 @@
             "pages": [
               "drugie-instrumenty-analitiki/katalog-reklamy-v-telegram-reklama",
               "drugie-instrumenty-analitiki/monitoring-upominanii",
+              "drugie-instrumenty-analitiki/moi-kanaly",
               "drugie-instrumenty-analitiki/analiz-auditorii",
-              "drugie-instrumenty-analitiki/telegraph-stati",
               "drugie-instrumenty-analitiki/detalnaya-statistika",
               "drugie-instrumenty-analitiki/bot-analitiki-kanalov",
               "drugie-instrumenty-analitiki/telegram-bot-dlya-chatov",
               "drugie-instrumenty-analitiki/avtoprinyatie-zayavok",
+              "drugie-instrumenty-analitiki/metki-o-moshennichestve-i-nakrutke",
               "drugie-instrumenty-analitiki/kak-pozhalovatsya-na-nakrutku"
             ]
           },
@@ -145,17 +146,7 @@
       "permanent": false
     },
     {
-      "source": "/drugie-instrumenty-analitiki/moi-kanaly",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
       "source": "/drugie-instrumenty-analitiki/profil",
-      "destination": "/statistika-kanala/informaciya-o-kanale",
-      "permanent": false
-    },
-    {
-      "source": "/drugie-instrumenty-analitiki/metki-o-moshennichestve-i-nakrutke",
       "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     },
@@ -216,6 +207,11 @@
     },
     {
       "source": "/profil/chyornaya-pyatnica-24.11.2025-28.11.2025",
+      "destination": "/statistika-kanala/informaciya-o-kanale",
+      "permanent": false
+    },
+    {
+      "source": "/drugie-instrumenty-analitiki/telegraph-stati",
       "destination": "/statistika-kanala/informaciya-o-kanale",
       "permanent": false
     }
